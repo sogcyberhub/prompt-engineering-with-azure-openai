@@ -1,13 +1,13 @@
-# 🚀 Build Prompt Engineering with Azure OpenAI Service
+# Build Prompt Engineering with Azure OpenAI Service
 
-## 📌 Overview
+## Overview
 This repository documents a hands-on lab focused on **prompt engineering using Azure OpenAI Service**. It demonstrates how to design effective prompts, deploy AI models, and integrate them into real-world applications.
 
 The project showcases how **prompt structure, examples, and context** directly influence AI-generated outputs—without requiring model fine-tuning.
 
 ---
 
-## 🎯 Objectives
+## Objectives
 - Understand core **prompt engineering techniques**
 - Deploy and configure **Azure OpenAI models**
 - Experiment with prompts in **Azure AI Foundry Playground**
@@ -20,6 +20,6 @@ The project showcases how **prompt structure, examples, and context** directly i
 
 ---
 
-## 🧱 Architecture
+## Architecture
 
 User Input → Prompt Design → Azure OpenAI Model → Application Layer → Response Output
