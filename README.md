@@ -54,7 +54,7 @@ User Input → Prompt Design → Azure OpenAI Model → Application Layer → Re
 
 > ⚠️ Sensitive values are NOT included in this repo
 
-![Step 1](https://github.com/sogcyberhub/prompt-engineering-with-azure-openai/blob/26cb808ecc2e9027781e6a60c7d9f6252197811e/001.png))
+![Step 1](https://github.com/sogcyberhub/prompt-engineering-with-azure-openai/blob/26cb808ecc2e9027781e6a60c7d9f6252197811e/001.png)
 
 ---
 
@@ -64,7 +64,7 @@ User Input → Prompt Design → Azure OpenAI Model → Application Layer → Re
   - `gpt-4.1-mini`
 - Configure deployment (e.g., `text-turbo`)
 
-![Step 2](link-to-screenshot)
+![Step 2](https://github.com/sogcyberhub/prompt-engineering-with-azure-openai/blob/8742360cf5a761a38c7262ff268abe0335b9605d/002.png)
 
 ---
 
@@ -85,6 +85,34 @@ Combine them into pairs
 # Create whimsical names
 # Combine into 25 pairs
 
+🔹 Few-Shot Learning (Classification)
+Example:
+Input: Sports article → Output: Sports
+Input: Movie article → Output: Entertainment
+
+➡️ Improves classification accuracy significantly
+
+
+✅ Step 4: Application Configuration
+🔹 Python (.env)
+AZURE_OAI_ENDPOINT=your-endpoint
+AZURE_OAI_KEY=your-key
+AZURE_OAI_DEPLOYMENT=text-turbo
+
+🔹 Install Dependencies
+pip install openai python-dotenv
+
+🔹 Initialize Client
+from openai import AsyncAzureOpenAI
+
+client = AsyncAzureOpenAI(
+    azure_endpoint=endpoint,
+    api_key=key,
+    api_version="2024-02-15-preview"
+)
+
 ---
+✅ Step 5: Run the Application
+python prompt-engineering.py
 
 
