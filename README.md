@@ -93,7 +93,7 @@ Input: Movie article → Output: Entertainment
 ➡️ Improves classification accuracy significantly
 
 
-✅ Step 4: Application Configuration
+Step 4: Application Configuration
 🔹 Python (.env)
 AZURE_OAI_ENDPOINT=your-endpoint
 AZURE_OAI_KEY=your-key
