@@ -23,3 +23,68 @@ The project showcases how **prompt structure, examples, and context** directly i
 ## Architecture
 
 User Input → Prompt Design → Azure OpenAI Model → Application Layer → Response Output
+
+---
+
+**Core Components:**
+- Azure OpenAI Service
+- GPT Model Deployment (`gpt-4.1-mini`)
+- Azure AI Foundry Playground
+- Local Application (Python / C#)
+
+---
+
+## Prerequisites
+- Azure Subscription (with OpenAI access)
+- Azure Portal access
+- Visual Studio Code
+- Python 3.x or .NET SDK
+- Basic understanding of APIs and prompt engineering
+
+---
+
+## Step-by-Step Implementation
+
+### Step 1: Provision Azure OpenAI Resource
+- Create resource via Azure Portal
+- Configure region, pricing tier, and resource group
+- Retrieve:
+  - API Key
+  - Endpoint
+
+> ⚠️ Sensitive values are NOT included in this repo
+
+![Step 1](link-to-screenshot)
+
+---
+
+### Step 2: Deploy Model
+- Navigate to Azure AI Foundry
+- Deploy base model:
+  - `gpt-4.1-mini`
+- Configure deployment (e.g., `text-turbo`)
+
+![Step 2](link-to-screenshot)
+
+---
+
+### Step 3: Prompt Engineering (Playground)
+
+#### 🔹 Basic Prompt
+
+---
+
+Create a list of animals
+Create whimsical names
+Combine them into pairs
+---
+
+#### 🔹 Structured Prompt (Improved Output)
+```python
+# Create a list of animals
+# Create whimsical names
+# Combine into 25 pairs
+
+---
+
+
