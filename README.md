@@ -54,7 +54,7 @@ User Input → Prompt Design → Azure OpenAI Model → Application Layer → Re
 
 > ⚠️ Sensitive values are NOT included in this repo
 
-![Step 1](link-to-screenshot)
+![Step 1](https://github.com/sogcyberhub/prompt-engineering-with-azure-openai/blob/26cb808ecc2e9027781e6a60c7d9f6252197811e/001.png))
 
 ---
 
